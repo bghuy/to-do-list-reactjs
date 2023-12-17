@@ -1,0 +1,33 @@
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các công việc */
+    height: fit-content;
+    font-size:14px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .title input {
+    margin-left: 5px;  /* Để tạo khoảng cách giữa input và button */
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  hr {
+    color: white;
+  }
+  
